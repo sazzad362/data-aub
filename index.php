@@ -11,8 +11,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-
-
 /*
 =================================
 	Add Student
@@ -178,6 +176,7 @@ if (isset($_POST['submit'])) {
 						    <div class="bmd-list-group-col">
 						      <p><?php echo $row["st_name"] ?></p>
 						      <small><?php echo $row["st_vc_id"] ?></small>
+						      <small><?php echo $row["st_size"] ?></small>
 						    </div>
 						  </li>
 						<?php  
