@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #ddd;
+}
+
+.main_form{
+	background-color: #fff;
+	padding: 25px;
+	margin-top: 15px;
+}
+
+.size {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.title {
+    background-color: #f44336;
+    padding: 10px 0 1px 0;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.list-group.bmd-list-group-sm .list-group-item {
+    padding: .5rem 1rem;
+    background: #f8f8f8;
+    margin-bottom: 5px;
+}
+.applied_area.main_form {
+    height: 500px;
+    overflow-y: scroll;
+}
